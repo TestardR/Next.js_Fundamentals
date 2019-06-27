@@ -1,13 +1,18 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Head from 'next/head';
+import Navbar from '../components/Navbar/Navbar';
+import '../scss/style.scss';
 
-const index = () => {
+const Index = () => {
   return (
     <div>
+      <Head>
+        <title>Hello World</title>
+      </Head>
       <Navbar />
       <h1>Hello World From Next JS</h1>
     </div>
   );
 };
 
-export default index;
+export default Index;
