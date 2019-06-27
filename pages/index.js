@@ -1,13 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 const index = () => {
   return (
     <div>
+      <Navbar />
       <h1>Hello World From Next JS</h1>
-      <Link title="About NextJS" href="/about">
-        About this project
-      </Link>
     </div>
   );
 };
