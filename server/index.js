@@ -10,11 +10,11 @@ app
   .prepare()
   .then(() => {
     const server = express();
-    // const showRoutes = require('./routes/index.js');
+    const showRoutes = require('./routes/index.js');
 
-    // server.use('/api', showRoutes);
+    server.use('/api', showRoutes);
 
-    server.get('/api/shows', (req, res) => {
+    server.get('/api/movies', (req, res) => {
       return res.end('We made it !');
     });
 
