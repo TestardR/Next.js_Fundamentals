@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div>
       <Head>
-        <title>Hello World</title>
+        <title>Awesome tutorial</title>
       </Head>
       <Navbar />
       <h1>Hello World From Next JS</h1>
