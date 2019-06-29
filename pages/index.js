@@ -9,7 +9,10 @@ const Index = () => {
         <title>Awesome tutorial</title>
       </Head>
       <Navbar />
-      <h1>Hello World From Next JS</h1>
+
+      <div>
+        <h1>Next.js</h1>
+      </div>
     </div>
   );
 };
